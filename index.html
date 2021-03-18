@@ -1,18 +1,284 @@
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+<!DOCTYPE html>
 
-<style>
-	.test {
-		width: 100%;
-		text-align: center;
-		margin: 0;
-		position: absolute;
-		top: 50%;
-		-ms-transform: translateY(-50%);
-		transform: translateY(-50%);
-		font-family: 'Redressed', cursive;
-		color: #D23745;
-	}
-</style>
+<html>
+	<head>
+		<title>SecretTalk - PoC</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"
+		/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript
+			><link rel="stylesheet" href="assets/css/noscript.css"
+		/></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Sidebar -->
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a href="#intro">Welcome</a></li>
+						<li><a href="#one">Who we are</a></li>
+						<li><a href="#two">Why Use This</a></li>
+						<li><a href="#three">Get in touch</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
 
-<h5 class="test">SecretTalk v0.0.1 - experimental</h5>
+		<!-- Wrapper -->
+		<div id="wrapper">
+			<!-- Intro -->
+			<section id="intro" class="wrapper style1 fullscreen fade-up">
+				<div class="inner">
+					<h1>SecretTalk</h1>
+					<p>
+						A secured alternative DIY kit for you to set up your own
+						masseging service in a decentralized manner & away from
+						any possible survailance.
+					</p>
+					<ul class="actions">
+						<li>
+							<a href="#one" class="button scrolly">Learn more</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- One -->
+			<section id="one" class="wrapper style2 spotlights">
+				<section>
+					<a href="#" class="image"
+						><img
+							src="images/pic01.jpg"
+							alt=""
+							data-position="center center"
+					/></a>
+					<div class="content">
+						<div class="inner">
+							<h2>Setup Guide</h2>
+							<p>
+								Phasellus convallis elit id ullamcorper
+								pulvinar. Duis aliquam turpis mauris, eu
+								ultricies erat malesuada quis. Aliquam dapibus.
+							</p>
+							<ul class="actions">
+								<li>
+									<a href="generic.html" class="button"
+										>Learn more</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Two -->
+			<section id="two" class="wrapper style3 fade-up">
+				<div class="inner">
+					<h2>Why Use This</h2>
+					<p>
+						Because you don't trust anybody to store your
+						conversations, you're a skeptical paranoid
+						crypto-anarchist who doesn't wanna rely on any messaging
+						platforms. Not even Snowden's recommended "Signal"! Yes,
+						not even that.
+					</p>
+					<div class="features">
+						<section>
+							<span class="icon solid major fa-code"></span>
+							<h3>Open Source</h3>
+							<p>
+								SecretTalk's code is completely open sourse and
+								can be forked and modified to fit your
+								application needs.
+							</p>
+						</section>
+						<section>
+							<span class="icon solid major fa-lock"></span>
+							<h3>Secured</h3>
+							<p>
+								Storing conversations locally doesn't mean that
+								they won't be encrypted, it means that they
+								won't be accessed to be decrypted by any 3rd
+								parties.
+							</p>
+						</section>
+						<section>
+							<span class="icon major fa-gem"></span>
+							<h3>Ruby</h3>
+							<p>
+								Ruby comes pre-installed on almost every UNIX
+								operating system.
+							</p>
+						</section>
+						<section>
+							<span class="icon solid major fa-cog"></span>
+							<h3>Almost Zero Configuration</h3>
+							<p>
+								You don't need to have any database technology
+								to be installed. All you need to do is clone,
+								setup, and run!
+							</p>
+						</section>
+						<section>
+							<span class="icon solid major fa-desktop"></span>
+							<h3>Admin Dashboard</h3>
+							<p>
+								Your messaging app is invite-based, create and
+								invite new users without any coding hustles
+								through a user friendly UI.
+							</p>
+						</section>
+						<section>
+							<span class="icon solid major fa-qrcode"></span>
+							<h3>Scan To Join</h3>
+							<p>
+								All you need to have the app installed on
+								devices you would like to have connected to your
+								server, is to send them a QR code to scan, and
+								then they'll be able to install a PWA with one
+								click.
+							</p>
+						</section>
+					</div>
+					<!-- <ul class="actions">
+						<li>
+							<a href="generic.html" class="button">Learn more</a>
+						</li>
+					</ul> -->
+				</div>
+			</section>
+
+			<!-- Three -->
+			<section id="three" class="wrapper style1 fade-up">
+				<div class="inner">
+					<h2>Do You Like SecretTalk?</h2>
+					<p>
+						Send me a massege if you have an idea to make it better
+					</p>
+					<div class="split style1">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input
+											type="text"
+											name="name"
+											id="name"
+										/>
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input
+											type="text"
+											name="email"
+											id="email"
+										/>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea
+											name="message"
+											id="message"
+											rows="5"
+										></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li>
+										<a href="" class="button submit"
+											>Send Message</a
+										>
+									</li>
+								</ul>
+							</form>
+						</section>
+						<section>
+							<ul class="contact">
+								<li>
+									<h3>About Me; Sameh AbuRadi</h3>
+									<span>
+										12345 Somewhere Road #642
+										<br />
+										Nashville, TX, United States
+									</span>
+								</li>
+								<li>
+									<h3>Contacts</h3>
+									<a href="#">Sameh.AbuRadi@CODE.Belrin</a>
+									<br />
+									<a href="#">+44 7745 539500</a>
+								</li>
+								<li>
+									<h3>Social Media</h3>
+									<ul class="icons">
+										<li>
+											<a
+												href="https://www.facebook.com/AbuRadi42/"
+												class="icon brands fa-facebook-f"
+												><span class="label"
+													>Facebook</span
+												></a
+											>
+										</li>
+										<li>
+											<a
+												href="https://github.com/Sameh96M"
+												class="icon brands fa-github"
+												><span class="label"
+													>GitHub</span
+												></a
+											>
+										</li>
+										<li>
+											<a
+												href="https://www.instagram.com/aburadi42/"
+												class="icon brands fa-instagram"
+												><span class="label"
+													>Instagram</span
+												></a
+											>
+										</li>
+										<li>
+											<a
+												href="https://www.linkedin.com/in/~42/"
+												class="icon brands fa-linkedin-in"
+												><span class="label"
+													>LinkedIn</span
+												></a
+											>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer" class="wrapper style1-alt">
+			<div class="inner">
+				<ul class="menu">
+					<li>&copy; SecretTalk. All rights reserved.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
