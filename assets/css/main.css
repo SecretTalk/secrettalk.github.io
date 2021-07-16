@@ -300,10 +300,10 @@ h1.major {
 }
 
 h1.major:after {
-	background-image: -moz-linear-gradient(to right, #D23745, #811d25);
-	background-image: -webkit-linear-gradient(to right, #D23745, #811d25);
-	background-image: -ms-linear-gradient(to right, #D23745, #811d25);
-	background-image: linear-gradient(to right, #D23745, #811d25);
+	background-image: -moz-linear-gradient(to right, #008230, #003815);
+	background-image: -webkit-linear-gradient(to right, #008230, #003815);
+	background-image: -ms-linear-gradient(to right, #008230, #003815);
+	background-image: linear-gradient(to right, #008230, #003815);
 	-moz-transition: max-width 0.2s ease;
 	-webkit-transition: max-width 0.2s ease;
 	-ms-transition: max-width 0.2s ease;
@@ -2620,7 +2620,7 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-	color: #D23745;
+	color: #008230;
 }
 
 .wrapper.style1-alt .icon.major:before {
@@ -3307,7 +3307,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-	background-color: #D23745;
+	background-color: #008230;
 }
 
 .wrapper.style1-alt {
@@ -3433,7 +3433,7 @@ body.is-preload .wrapper.fade > .inner {
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	background-color: #D23745;
+	background-color: #008230;
 	cursor: default;
 	padding: 1.75em 2em;
 }
@@ -3823,10 +3823,10 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-	background-image: -moz-linear-gradient(to right, #D23745, #811d25);
-	background-image: -webkit-linear-gradient(to right, #D23745, #811d25);
-	background-image: -ms-linear-gradient(to right, #D23745, #811d25);
-	background-image: linear-gradient(to right, #D23745, #811d25);
+	background-image: -moz-linear-gradient(to right, #008230, #003815);
+	background-image: -webkit-linear-gradient(to right, #008230, #003815);
+	background-image: -ms-linear-gradient(to right, #008230, #003815);
+	background-image: linear-gradient(to right, #008230, #003815);
 	-moz-transition: max-width 0.2s ease;
 	-webkit-transition: max-width 0.2s ease;
 	-ms-transition: max-width 0.2s ease;
@@ -3914,7 +3914,7 @@ body.is-preload #sidebar nav ul li {
 
 	#sidebar nav a:after {
 		background-image: none;
-		background-color: #811d25;
+		background-color: #003815;
 	}
 }
 
